@@ -15,7 +15,7 @@ return array(
 	| All database work in Laravel is done through the PHP PDO facilities
 	| so make sure you have the driver for your particular database of
 	| choice installed on your machine before you begin development.
-	| local setting and again made a change changed
+	| local setting and again made a change changed this has changed
 	*/
 
 	'connections' => array(
