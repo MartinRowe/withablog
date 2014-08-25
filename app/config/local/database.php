@@ -15,17 +15,17 @@ return array(
 	| All database work in Laravel is done through the PHP PDO facilities
 	| so make sure you have the driver for your particular database of
 	| choice installed on your machine before you begin development.
-	| local setting and again made a change changed this has changed
+	| local setting and again made a change
 	*/
 
 	'connections' => array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      =>  $_ENV('DB_HOST'),
-			'database'  =>  $_ENV('DB_NAME'),
-			'username'  =>  $_ENV('DB_USERNAME'),
-			'password'  =>  $_ENV('DB_PASSWORD'),
+			'host'      => 'localhost',
+			'database'  => 'wardrobeblog',
+			'username'  => 'homestead',
+			'password'  => 'secret',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
